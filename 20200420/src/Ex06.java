@@ -7,16 +7,18 @@
 public class Ex06 {
 	public static void main(String[] args) {
 		int a = 1;
-		int total = 0;
+		int total = 1;
 		
 		while(true) {
 			
-			total = total + a;
 			a = a+2;
+			total = total + a;
+			
 			
 			if(total > 1000)
 				break;
 		}
+		
 		System.out.println("total = "+total);
 		System.out.println("a = "+a);
 	}
